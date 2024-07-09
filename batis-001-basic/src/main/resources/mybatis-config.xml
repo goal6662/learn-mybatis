@@ -15,6 +15,8 @@
         </environment>
     </environments>
     <mappers>
-        <mapper resource="org/mybatis/example/BlogMapper.xml"/>
+        <!-- 指定Mapper文件目录 -->
+        <!-- 从根路径[resources]下开始 -->
+        <mapper resource="mappers/CarMapper.xml"/>
     </mappers>
 </configuration>
